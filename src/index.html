@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FootballWorld</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+<body>
+    <!-- navbar component -->
+    <nav class="navbar">
+        <!-- navbar logo -->
+        <div class="navbar__logo">
+            <a href="#" class="navbar__logo-link">
+                <img 
+                    src="./assets/svg/football-svgrepo-com-2.svg" 
+                    alt="FootballWorld logo green"
+                    class="navbar__logo-svg"
+                    width="70px"
+                />
+            </a>
+            <p class="navbar__logo-title">FootballWorld</p>
+        </div>
+        <!-- navbar links -->
+         <div class="navbar__links">
+            <ul class="navbar__links-list">
+                <li class="navbar__links-item">
+                    <a href="#" class="navbar__link navbar__link--active">Players</a>
+                </li>
+                <li class="navbar__links-item">
+                    <a href="./rankings.html" class="navbar__link">Current Ranking</a>
+                </li>
+            </ul>
+         </div>
+         <!-- navbar hamburger menu -->
+          <div class="navbar__menu">
+            <button class="navbar__toggle">
+                <svg 
+                    class="navbar__menu-icon"
+                    width="50px" 
+                    height="800px" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                    <g id="SVGRepo_iconCarrier"> <path d="M1 12C1 11.4477 1.44772 11 2 11H22C22.5523 11 23 11.4477 23 12C23 12.5523 22.5523 13 22 13H2C1.44772 13 1 12.5523 1 12Z" fill="#d0e2bb"/> <path d="M1 4C1 3.44772 1.44772 3 2 3H22C22.5523 3 23 3.44772 23 4C23 4.55228 22.5523 5 22 5H2C1.44772 5 1 4.55228 1 4Z" fill="#d0e2bb"/> <path d="M1 20C1 19.4477 1.44772 19 2 19H22C22.5523 19 23 19.4477 23 20C23 20.5523 22.5523 21 22 21H2C1.44772 21 1 20.5523 1 20Z" fill="#d0e2bb"/> </g>
+                </svg>
+            </button>
+          </div>
+    </nav>
+    <main>
+        <!-- Container header -->
+        <div class="container__1">
+            <p class="header__secondary">Team Standing</p>
+            <h1 class="header__primary">Manchester United</h1>
+            <img src="./assets/images/Manchester_United_FC_crest.svg.png" alt="Manchester United team logo" class="team__logo">
+        </div>
+        <!-- Cards for goalkeepers -->
+        <div class="container__cards">
+            <p class="cards-1__header">Goalkeepers</p>
+            <div class="cards__goalkeepers">
+                <div class="cards">
+                    <img src="./assets/images/39-Safia-Middleton-Patel_11721851912896.png" alt="Safia Middleton-Patel headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>39</b></li>
+                        <li class="player__facts">Safia Middleton-Patel</li>
+                        <li class="player__facts">Wales</li>
+                        <li class="player__facts">21 Sep 2004</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/91_Phallon_Tullis_Joyce1719823409273.jpg" alt="Phallon Tullis-Joyce headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>91</b></li>
+                        <li class="player__facts">Phallon Tullis-Joyce</li>
+                        <li class="player__facts">USA</li>
+                        <li class="player__facts">19 Oct 1996</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- cards for defenders -->
+        <div class="container__cards">
+            <p class="cards-1__header">Defenders</p>
+            <div class="cards__goalkeepers">
+                <div class="cards">
+                    <img src="./assets/images/Anna Sandberg.jpg" alt="Anna Sandberg headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>2</b></li>
+                        <li class="player__facts">Anna Sandberg</li>
+                        <li class="player__facts">Sweden</li>
+                        <li class="player__facts">23 May 2003</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/Gabby George.jpg" alt="Gabby George headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>3</b></li>
+                        <li class="player__facts">Gabby George</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">2 Feb 1997</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/4_Maya_Le_Tissier1719823607557.jpg" alt="Maya le Tissier headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>4</b></li>
+                        <li class="player__facts">Maya Le Tissier</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">18 Apr 2002</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/5_Aoife_Mannion1719823700356.jpg" alt="Aoife Mannion headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>5</b></li>
+                        <li class="player__facts">Aoife Mannion</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">24 Sep 1995</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/6_Hannah_Blundell1719823808069.jpg" alt="Hannah Blundell headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>6</b></li>
+                        <li class="player__facts">Hannah Blundell</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">25 May 1994</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/14_Jayde_Riviere1719823948922.jpg" alt="Jayde Riviere headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>14</b></li>
+                        <li class="player__facts">Jayde Riviere</li>
+                        <li class="player__facts">Canada</li>
+                        <li class="player__facts">22 Jan 2001</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/dominique janssen.jpg" alt="Dominique Janssen headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>17</b></li>
+                        <li class="player__facts">Dominique Janssen</li>
+                        <li class="player__facts">Netherland</li>
+                        <li class="player__facts">17 Jan 1995</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/21_Millie_Turner1719824132904.jpg" alt="Millie Turner headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>21</b></li>
+                        <li class="player__facts">Millie Turner</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">7 Jul 1996</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/25_Evie_Rabjohn1719824242106.jpg" alt="Evie Rabjohn headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>25</b></li>
+                        <li class="player__facts">Evie Rabjohn</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">28 Apr 2005</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/38_Jess_Simpson1719919515685.jpg" alt="Jess Simpson headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>38</b></li>
+                        <li class="player__facts">Jess Simpson</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">13 Jan 2005</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/951267_lucy_newell_20241018185623.png" alt="Lucy Newell headshot" class="player__headshot" height="275.406px">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>55</b></li>
+                        <li class="player__facts">Lucy Newell</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">2 Oct 2006</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- cards for Midfielders -->
+        <div class="container__cards">
+            <p class="cards-1__header">Midfielders</p>
+            <div class="cards__goalkeepers">
+                <div class="cards">
+                    <img src="./assets/images/7_Ella_Toone1719824348703.jpg" alt="Ella Toone headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>7</b></li>
+                        <li class="player__facts">Ella Toone</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">2 Sep 1999</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/26_Grace_Clinton1719825009076.jpg" alt="Grace Clinton headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>8</b></li>
+                        <li class="player__facts">Grace Clinton</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">31 Mar 2003</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/11_leah_Galton1719824498365.jpg" alt="Leah Galton headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>11</b></li>
+                        <li class="player__facts">Leah Galton</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">24 May 1994</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/12_Hayley_Ladd1719824648277.jpg" alt="Hayley Ladd headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>12</b></li>
+                        <li class="player__facts">Hayley Ladd</li>
+                        <li class="player__facts">Welsh</li>
+                        <li class="player__facts">6 Oct 1993</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/simi awujo.jpg" alt="Simi Awujo headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>13</b></li>
+                        <li class="player__facts">Simi Awujo</li>
+                        <li class="player__facts">Canada</li>
+                        <li class="player__facts">23 Sep 2003</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/16_Lisa_Naalsund1719824799758.jpg" alt="Lisa Naalsund headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>16</b></li>
+                        <li class="player__facts">Lisa Naalsund</li>
+                        <li class="player__facts">Norway</li>
+                        <li class="player__facts">11 Jun 1995</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/20_Hinata_Miyazawa1719824898223.jpg" alt="Hinata Miyazawa headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>20</b></li>
+                        <li class="player__facts">Hinata Miyazawa</li>
+                        <li class="player__facts">Japan</li>
+                        <li class="player__facts">28 Nov 1999</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/34_Emma_Watson1719825128028.jpg" alt="Emma Watson headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>34</b></li>
+                        <li class="player__facts">Emma Watson</li>
+                        <li class="player__facts">Scotland</li>
+                        <li class="player__facts">28 Jan 2006</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- cards for forwards -->
+        <div class="container__cards">
+            <p class="cards-1__header">Forwards</p>
+            <div class="cards__goalkeepers">
+                <div class="cards">
+                    <img src="./assets/images/9_Melvine_Malard1719825330842.jpg" alt="Melvine Malard headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>9</b></li>
+                        <li class="player__facts">Melvine Malard</li>
+                        <li class="player__facts">France</li>
+                        <li class="player__facts">28 Jun 2000</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/celin bizet.jpg" alt="Celin Bizet headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>15</b></li>
+                        <li class="player__facts">Celin Bizet</li>
+                        <li class="player__facts">Norway</li>
+                        <li class="player__facts">24 Oct 2001</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/elisabeth terland.jpg" alt="Elisabeth Terland headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>19</b></li>
+                        <li class="player__facts">Elisabeth Terland</li>
+                        <li class="player__facts">Norway</li>
+                        <li class="player__facts">28 Jun 2001</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/23_Geyse1719825548315.jpg" alt="Geyse Da Silva Ferreira headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>23</b></li>
+                        <li class="player__facts">Geyse Da Silva Ferreira</li>
+                        <li class="player__facts">Brazil</li>
+                        <li class="player__facts">27 Mar 1998</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/28_Rachel_Williams1719825641155.jpg" alt="Rachel Williams headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>28</b></li>
+                        <li class="player__facts">Rachel Williams</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">10 Jan 1988</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/36_Alyssa_Aherne1719919448773.jpg" alt="Alyssa Atherne headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>36</b></li>
+                        <li class="player__facts">Alyssa Aherne</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">22 Feb 2004</li>
+                    </ul>
+                </div>
+                <div class="cards">
+                    <img src="./assets/images/37_Kiera_Barry1727697719448.jpg" alt="Keira Barry headshot" class="player__headshot">
+                    <ul class="player__facts-list">
+                        <li class="player__facts"><b>37</b></li>
+                        <li class="player__facts">Keira Barry</li>
+                        <li class="player__facts">England</li>
+                        <li class="player__facts">13 Jun 2005</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- back to top button -->
+        <div class="button__top">
+            <a href="#" class="button__top-link">Back To Top</a>
+        </div>
+    </main>
+    <!-- footer component -->
+    <footer>
+        <!-- Links -->
+        <div class="footer__container">
+            <div class="footer__links-container">
+                <ul class="footer__links-list">
+                    <li class="footer__links-bold"><b>Premier League</b></li>
+                    <li class="footer__links">Stats</li>
+                    <li class="footer__links">Clubs</li>
+                    <li class="footer__links">Players</li>
+                    <li class="footer__links">Results</li>
+                </ul>
+            </div>
+            <!-- socials -->
+            <div class="footer__socials-container">
+                <a href="#" class="footer__facebook-link">
+                    <img src="./assets/svg/facebook-svgrepo-com.svg" alt="Facebook logo green" class="footer__facebook-img">
+                </a>
+                <a href="#" class="footer__instagram-link">
+                    <img src="./assets/svg/instagram-svgrepo-com.svg" alt="Instagram logo green" class="footer__instagram-img">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

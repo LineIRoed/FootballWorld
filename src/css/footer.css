@@ -1,0 +1,63 @@
+@font-face {
+    font-family: futura;
+    src: url(../assets/fonts/Futura.ttf);
+}
+/* footer styling */
+footer {
+    width: 100%;
+    background-color: var(--primary-background-color);
+}
+.footer__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.footer__links-container {
+    display: flex;
+    flex-direction: column;
+}
+.footer__links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.footer__links-bold {
+    color: var(--primary-font-color);
+    font-size: 1.25rem;
+}
+.footer__links {
+    color: var(--primary-font-color);
+    font-size: 1.125;
+    cursor: pointer;
+}
+.footer__links:hover {
+    color: var(--hover-font-color);
+    transition: color 0.3s linear;
+}
+/* footer social icons styling */
+.footer__socials-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.footer__facebook-img {
+    width: 70px;
+}
+.footer__instagram-img {
+    width: 70px;
+}
+
+@media screen and (max-width: 641px) {
+    .footer__container {
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__links-list {
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,76 @@
+@font-face {
+    font-family: futura;
+    src: url(../assets/fonts/Futura.ttf);
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--primary-background-color);
+    padding: 0.5rem;
+    align-items: center;
+}
+/* navbar logo styling */
+.navbar__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.navbar__logo-title {
+    color: var(--primary-font-color);
+    font-size: 1.25rem;
+}
+
+/* navbar links styling */
+.navbar__links-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    height: 100%;
+}
+.navbar__link {
+    text-decoration: none;
+    color: var(--primary-font-color);
+    font-size: 1.125rem;
+}
+.navbar__links-item > *:hover {
+    color: var(--hover-font-color);
+    border-bottom-color: var(--hover-font-color);
+    transition: border-bottom-color 0.3s linear, color 0.3s linear;
+}
+.navbar__link--active {
+    border-bottom: 1.5px solid var(--primary-font-color);
+}
+
+/* navbar hamburger menu styling */
+.navbar__toggle {
+    visibility: hidden;
+    background-color: transparent;
+    border: none;
+}
+.navbar__menu-icon {
+    visibility: hidden;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+
+@media screen and (max-width: 770px) {
+    .navbar {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .navbar__links-list {
+        visibility: hidden;
+    }
+    .navbar__toggle {
+        visibility: visible;
+    }
+    .navbar__menu-icon {
+        visibility: visible;
+    }
+}

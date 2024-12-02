@@ -1,0 +1,126 @@
+@font-face {
+    font-family: futura;
+    src: url(../assets/fonts/Futura.ttf);
+}
+@font-face {
+    font-family: impact;
+    src: url(../assets/fonts/impact.ttf);
+}
+
+/* styling body */
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary-background-color);
+}
+main {
+    padding: 2rem;
+}
+
+/* styling headers */
+.container__1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.header__secondary {
+    font-family: impact;
+    color: var(--primary-font-color);
+    font-size: 2.5rem;
+}
+.header__primary {
+    font-family: futura;
+    color: var(--primary-font-color);
+    font-size: 5rem;
+}
+.team__logo {
+    width: 30%;
+}
+
+/* styling card container for different field possitions */
+.container__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 4rem;
+}
+.cards-1__header {
+    font-family: impact;
+    color: var(--primary-font-color);
+    font-size: 1.25rem;
+}
+
+/* styling for cards */
+.cards__goalkeepers {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.cards {
+    background-color: var(--primary-background-color);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 325px;
+    height: 425px;
+    gap: 1rem;
+    border-radius: 20px;
+}
+.cards__goalkeepers :hover {
+    background-color: var(--hover-card-color);
+}
+.player__headshot {
+    border-radius: 20px;
+}
+.player__facts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.player__facts {
+    font-family: futura;
+    color: var(--primary-font-color);
+    font-size: 1.125;
+}
+
+/* back to top button styling */
+.button__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem ;
+}
+.button__top-link {
+    color: var(--primary-font-color);
+    background-color: var(--primary-background-color);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    font-family: futura;
+}
+.button__top-link:hover,
+.button__top-link:active {
+    background-color: var(--hover-card-color);
+    transition: color 0.3s linear;
+}
+
+@media screen and (max-width: 770px) {
+    .header__primary {
+        font-size: 2.813rem;
+    }
+    .header__secondary {
+        font-size: 1.563rem;
+    }
+}

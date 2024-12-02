@@ -1,0 +1,141 @@
+/* fonts */
+@font-face {
+    font-family: futura;
+    src: url(../assets/fonts/Futura.ttf);
+}
+@font-face {
+    font-family: impact;
+    src: url(../assets/fonts/impact.ttf);
+}
+
+/* body styling */
+body {
+    width: 100%;
+    height: 100%;
+}
+main {
+    background-color: var(--secondary-background-color);
+    padding: 2rem;
+}
+
+/* flex containers */
+.flex_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.container__table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.container__heading {
+    font-family: impact;
+    color: var(--primary-font-color);
+    font-size: 2.5rem;
+}
+
+/* table styling */
+.table__border {
+    border-width: 3px;
+    border-color: var(--primary-font-color);
+    background-color: var(--primary-background-color);
+}
+.table__clubs-cell {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+}
+.club__logos {
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.table__text-bold {
+    font-family: futura;
+    color: var(--primary-font-color);
+    font-size: 1.25rem;
+    padding: 0.5rem;
+}
+th {
+    font-family: futura;
+    color: var(--secondary-font-color);
+    font-size: 1rem;
+}
+.table__info-heading {
+    font-family: impact;
+    color: var(--primary-font-color);
+    font-size: 1.25rem;
+}
+.table__info {
+    font-family: futura;
+    color: var(--secondary-font-color);
+    font-size: 1rem;
+    gap: 0.5rem;
+    padding: 0.5rem
+}
+
+/* media queries */
+@media screen and (max-width: 950px) {
+    .table__clubs-cell {
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 750px) {
+    .table__text-bold {
+        font-size: 1.125rem;
+    }
+    .table__clubs-cell {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 710px) {
+    .table__text-bold {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 660px) {
+    .table__text-bold {
+        font-size: 0.875rem;
+    }
+    th {
+        font-size: 0.75rem;
+    }
+    .table__clubs-cell {
+        font-size: 0.75rem;
+    }
+    .container__table {
+        gap: 0.5rem;
+    }
+    .club__logos {
+        width: 30px;
+    }
+}
+@media screen and (max-width: 590px) {
+    .table__text-bold {
+        font-size: 0.75rem;
+        padding: 0.3rem;
+    }
+    th {
+        font-size: 0.625rem;
+    }
+    .table__clubs-cell {
+        font-size: 0.625rem;
+    }
+    .table__border {
+        border-width: 1px;
+    }
+    main {
+        padding: 1rem;
+    }
+}
