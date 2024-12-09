@@ -49,4 +49,4 @@ If you have any questions or suggestions, feel free to reach out to me at [anro0
 
 Link to github repository: https://github.com/LineIRoed/FootballWorld.git
 
-link to netlify deployment: 
+link to netlify deployment: https://675706ccfd95ac03c9a7b682--musical-cupcake-05d6d8.netlify.app/
