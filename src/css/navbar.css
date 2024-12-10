@@ -1,3 +1,4 @@
+/* fonts */
 @font-face {
     font-family: futura;
     src: url(../assets/fonts/Futura.ttf);
@@ -59,6 +60,7 @@
     width: 40px;
 }
 
+/* media queries */
 @media screen and (max-width: 770px) {
     .navbar {
         padding-left: 4rem;
