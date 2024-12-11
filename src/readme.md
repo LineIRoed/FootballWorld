@@ -25,7 +25,7 @@ No dependecies or build tools are required for this project, as it is simple fro
 # Usage
 To use FootballWorld:
 Open the index.html file in a browser.
-Move between the players page and the current standing page by pressing the links in the navigation bar.
+Move between the players page and the current standing page by pressing the links in the navigation bar or in the footer.
 Read the ranking table using the information provided in the table footer.
 
 # Features
