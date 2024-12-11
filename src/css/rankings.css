@@ -139,3 +139,25 @@ th {
         padding: 1rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .table__text-bold {
+        font-size: 0.625rem;
+        padding: 0rem;
+    }
+    th {
+        font-size: 0.5rem;
+    }
+    .table__clubs-cell {
+        font-size: 0.5rem;
+    }
+    .table__border {
+        border-width: 1px;
+    }
+    main {
+        padding: 0.5rem;
+    }
+    .club__logos {
+        width: 20px;
+    }
+}

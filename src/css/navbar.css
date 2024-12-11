@@ -76,3 +76,24 @@
         visibility: visible;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .navbar {
+        width: 100%;
+        gap: 2rem;
+    }
+    .navbar__logo-svg {
+        width: 50px;
+        height: auto;
+    }
+    .navbar__logo {
+        gap: 1rem;
+    }
+    .navbar__links-list {
+        display: none;
+    }
+    .navbar__menu-icon {
+        width: 30px;
+        height: 30px;
+    }
+}

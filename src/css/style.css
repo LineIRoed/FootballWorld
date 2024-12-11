@@ -127,3 +127,12 @@ main {
         font-size: 1.563rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .header__primary {
+        font-size: 1.875rem;
+    }
+    .header__secondary {
+        font-size: 1.563rem;
+    }
+}
